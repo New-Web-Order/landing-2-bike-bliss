@@ -1,7 +1,7 @@
 import React, { forwardRef, useRef, ButtonHTMLAttributes } from 'react';
 import { mergeRefs } from 'react-merge-refs';
 import cn from 'classnames';
-import styles from './buttons.module.css';
+import styles from './button.module.css';
 
 
 

@@ -1,0 +1,89 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "Home", "href": "#/" },
+          { "name": "Pricing", "href": "#/" },
+          { "name": "About", "href": "#/" },
+          { "name": "Contact", "href": "#/" }
+        ],
+        "buttonText": "Get Started",
+        "logoText": "Bike Bliss"
+      },
+      "WelcomeBanner": {
+        "heading": "Ride with passion Ride with us",
+        "subheading": "Experience the thrill of the open road with our premium selection of bikes.",
+        "buttonText": "Buy Now"
+      },
+      "BikeDetails": {
+        "heading": "Main feature",
+        "subheading": "Discover The Perfect Ride",
+        "toptext": "Explore the key features that make our bikes stand out from the crowd.",
+        "details": [
+          {
+            "image":"/assets/images/image-one.webp",
+            "title": "StreetRider",
+            "description": "Embrace the perfect blend of style and performance. Conquer every journey with ease.",
+            "buttonText":"Get Started"
+          },
+          {
+            "image":"/assets/images/image-two.webp",
+            "title": "ThunderBolt",
+            "description": "Unleash the power within. Dominate the streets with unmatched agility and design.",
+            "buttonText":"Get Started"
+            
+          },
+          {
+            "image":"/assets/images/image-three.webp",
+            "title": "TrailBlazer",
+            "description": "Elevate your riding experience. Precision engineering meets unparalleled comfort and control.",
+            "buttonText":"Get Started"
+
+          }
+        ]
+      },
+      "Testimonials": {
+        "heading": "Absolutely love my ThunderBolt! Smooth ride, sleek design, and unbeatable performance ",
+        "endtext":"- John S",
+        "name": "John S",
+        "position": "Position, Company name"
+      },
+      "Accordion": {
+        "heading": "Frequently asked questions",
+        "subheading":"Find answers to common questions about our bikes, services, and more.",
+        "question": "Still have questions?",
+        "endtext": "Support details to capture customers that might be on the fence.",
+        "buttonText": "Contact"
+
+
+      },
+      "Cta": {
+        "heading": "Explore our collection and find the perfect bike for you.",
+        "buttonText": "Get Started"
+
+
+      },
+      "Footer": {
+        "1": "Features",
+        "2": "Testimonials",
+        "3": "Faqs",
+
+        "SocialMediaLinks": [
+          {"name": "instagram", "href": "https://www.instagram.com/newweborderltd/?igshid=NTc4MTIwNjQ2YQ%3D%3D"},
+          {"name": "twitter", "href": "https://twitter.com/New_Web_Order"},
+          {"name": "facebook", "href": "https://www.facebook.com/NewWebOrder1/"},
+          {"name": "linkedin", "href": "https://www.linkedin.com/company/newweborder"},
+          {"name": "youtube", "href": "https://www.newweborder.co/"}
+        ],
+
+        "4": "Privacy Policy",
+        "5": "Terms of Service",
+        "6": "Cookies Settings"
+ 
+        
+
+
+      }
+
+
+
+}

@@ -1,0 +1,23 @@
+.root {
+    @apply inline-flex cursor-pointer items-center justify-center text-center font-medium rounded-md h-11 text-base;
+  }
+
+ 
+
+/********** SURFACE **********/
+.root[data-shape="surface"] {
+    @apply border border-primary-300 text-bg-100 bg-transparent px-5 rounded-xl;
+  }
+  
+  .root[data-shape="surface"]:hover {
+  }
+  
+  /********** FILLED **********/
+  
+  .root[data-shape="filled"] {
+    @apply bg-primary-300 text-bg-100 px-4;
+  }
+  
+  .root[data-shape="filled"]:hover {
+    @apply bg-[#7059BB];
+  }

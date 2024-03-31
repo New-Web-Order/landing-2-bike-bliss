@@ -17,16 +17,49 @@ const FAQS = () => {
         <div className='w-full flex flex-col items-center gap-4'>
             <h1 className='text-3xl lg:text-4xl text-bg-100 font-bold text-center'>{Data.Accordion.heading}</h1>
             <p className='text-base lg:text-lg text-bg-200 font-medium text-center'>{Data.Accordion.subheading}</p>
-          </div>
+        </div>
+        <div className='w-full justify-center flex flex-col sm:px-6 xl:px-0'>
           <Accordion type="single" collapsible>
   <AccordionItem value="item-1">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
+    <AccordionTrigger className='font-semibold text-base md:text-lg text-bg-200'>Is it accessible?</AccordionTrigger>
+    <AccordionContent className='font-normal text-base md:text-lg text-bg-200'>
+      This is an accordion Click the chevron to close   
     </AccordionContent>
   </AccordionItem>
-</Accordion>
-
+          </Accordion> 
+          <Accordion type="single" collapsible>
+  <AccordionItem value="item-1">
+    <AccordionTrigger className='font-semibold text-base md:text-lg text-bg-200'>Is it accessible?</AccordionTrigger>
+    <AccordionContent className='font-normal text-base md:text-lg text-bg-200'>
+      This is an accordion Click the chevron to close   
+    </AccordionContent>
+  </AccordionItem>
+          </Accordion> 
+          <Accordion type="single" collapsible>
+  <AccordionItem value="item-1">
+    <AccordionTrigger className='font-semibold text-base md:text-lg text-bg-200'>Is it accessible?</AccordionTrigger>
+    <AccordionContent className='font-normal text-base md:text-lg text-bg-200'>
+      This is an accordion Click the chevron to close   
+    </AccordionContent>
+  </AccordionItem>
+          </Accordion> 
+          <Accordion type="single" collapsible>
+  <AccordionItem value="item-1">
+    <AccordionTrigger className='font-semibold text-base md:text-lg text-bg-200'>Is it accessible?</AccordionTrigger>
+    <AccordionContent className='font-normal text-base md:text-lg text-bg-200'>
+      This is an accordion Click the chevron to close   
+    </AccordionContent>
+  </AccordionItem>
+          </Accordion> 
+          <Accordion type="single" collapsible className='border-b border-bg-900'>
+  <AccordionItem value="item-1">
+    <AccordionTrigger className='font-semibold text-base md:text-lg text-bg-200'>Is it accessible?</AccordionTrigger>
+    <AccordionContent className='font-normal text-base md:text-lg text-bg-200'>
+    This is an accordion Click the chevron to close   
+    </AccordionContent>
+  </AccordionItem>
+          </Accordion>
+          </div>
           <div className='w-full flex flex-col items-center gap-4 lg:gap-8'>
           <h1 className='text-3xl lg:text-4xl text-bg-100 font-bold text-center'>{Data.Accordion.question}</h1>
           <p className='text-base lg:text-lg text-bg-200 font-medium text-center'>{Data.Accordion.endtext}</p>

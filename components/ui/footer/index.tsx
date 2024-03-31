@@ -58,10 +58,21 @@ const Footer = () => {
     </div>
 
 
-        <div className='w-full border-t border-bg-900 pt-8 flex items-baseline justify-center gap-6'>
-        <p className='text-sm md:text-base font-medium text-bg-200 cursor-pointer'>{Data.Footer[4]}</p>
-        <p className='text-sm md:text-base font-medium text-bg-200 cursor-pointer'>{Data.Footer[5]}</p>
-        <p className='text-sm md:text-base font-medium text-bg-200 cursor-pointer'>{Data.Footer[6]}</p>
+        <div className='w-full border-t border-bg-900 pt-8 flex flex-col items-center gap-3'>
+        <Link
+        href={"https://www.newweborder.co/"}
+        target="_blank"
+        rel="noopener noreferrer"
+        className='text-sm md:text-base font-normal md:font-medium text-bg-200 cursor-pointer text-center'
+        > 
+        © 2023 newweborder. All rights reserved.
+        </Link>
+          
+        <div className='w-full flex items-center justify-center gap-3 sm:gap-6'>
+        <a className='text-sm md:text-base font-normal md:font-medium text-bg-200 cursor-pointer text-center'>{Data.Footer[4]}</a>
+        <a className='text-sm md:text-base font-normal md:font-medium text-bg-200 cursor-pointer text-center'>{Data.Footer[5]}</a>
+        <a className='text-sm md:text-base font-normal md:font-medium text-bg-200 cursor-pointer text-center'>{Data.Footer[6]}</a>
+        </div>
         </div>
       </div>
     </div>
